@@ -1,0 +1,13 @@
+<svg width="800" height="480" viewBox="0 0 800 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5A9" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" rx="40" fill="url(#grad6)" />
+  <path d="M0 320C120 260 220 280 320 240C420 200 520 220 620 180C700 145 760 160 800 180V480H0Z" fill="#ffffff20" />
+  <circle cx="600" cy="120" r="70" fill="#ffffff30" />
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="48" font-weight="700">Seaside</text>
+  <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" fill="#D9FAF0" font-family="Inter, sans-serif" font-size="22">₹2,800</text>
+</svg>
