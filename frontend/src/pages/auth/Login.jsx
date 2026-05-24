@@ -37,13 +37,18 @@ export default function Login() {
       return;
     }
 
+    console.log('Login attempt', formData);
     setIsSubmitting(true);
     try {
       const response = await login(formData.email, formData.password);
+      console.log('Login response', response);
       if (response.success) {
         navigate('/dashboard');
+      } else {
+        setSubmitError(response.message || 'Login failed. Please check your credentials.');
       }
     } catch (error) {
+      console.error('Login error', error);
       setSubmitError(error.response?.data?.message || error.message || 'Invalid login credentials');
     } finally {
       setIsSubmitting(false);

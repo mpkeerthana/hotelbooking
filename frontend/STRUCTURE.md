@@ -316,7 +316,7 @@ function HotelsList() {
 
 ### `.env.example`
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://hotelbooking-backend-663i.onrender.com/api
 ```
 
 ### `tailwind.config.js`

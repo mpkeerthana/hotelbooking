@@ -57,7 +57,7 @@ src/
 
 1. Create `.env` file:
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://hotelbooking-backend-663i.onrender.com/api
 ```
 
 2. Update API endpoints in `src/utils/constants.js`
