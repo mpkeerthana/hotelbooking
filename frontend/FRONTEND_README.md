@@ -132,7 +132,7 @@ Update API endpoints in `src/utils/constants.js` and configure the base URL in `
 
 ```javascript
 // src/services/api.js
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'VITE_API_URL=https://hotelbooking-backend-663i.onrender.com/api';
 ```
 
 ## 🛠️ Available Scripts
@@ -172,8 +172,7 @@ npm run lint      # Run ESLint
 
 ```env
 # Backend API URL
-VITE_API_URL=http://localhost:5000/api
-
+VITE_API_URL=VITE_API_URL=https://hotelbooking-backend-663i.onrender.com/api
 # Add more as needed
 VITE_STRIPE_KEY=
 VITE_APP_NAME=TravelHub
