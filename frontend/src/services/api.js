@@ -1,10 +1,8 @@
 import axios from 'axios';
 
-<<<<<<< HEAD
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://hotelbooking-backend-663i.onrender.com/api';
-=======
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'VITE_API_URL=https://hotelbooking-backend-663i.onrender.com/api';
->>>>>>> 856324a9657af5c8b220e31c9ab8dfb32e8f6962
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL ||
+  'https://hotelbooking-backend-663i.onrender.com/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
@@ -12,7 +10,6 @@ const apiClient = axios.create({
     'Content-Type': 'application/json',
   },
 });
-
 // Add token to requests if available
 apiClient.interceptors.request.use((config) => {
   const token = localStorage.getItem('authToken');
